@@ -1,0 +1,7 @@
+var c1 = Card(c: Color(rawValue: "Hearts")!, v: Value(rawValue: 3)!)
+var c2 = Card(c: Color(rawValue: "Spades")!, v: Value(rawValue: 5)!)
+//var c1 = Card(c: Spades, v: Ace)
+//var c2 = Card(c: Clubs, v: Ten)
+var c3 = Card(c: Color.Diamonds, v: Value.Eight)
+print(c1 == c2)
+print(c3)
